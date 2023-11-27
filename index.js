@@ -68,7 +68,7 @@ function animate(particles) {
         if (particle.y+particle.radius > canvas_height){
             positiony = true
         }
-        else if (particle.y + particle.radius < 0){
+        else if (particle.y - particle.radius < 0){
             positiony = false
         }
 
